@@ -53,3 +53,14 @@ def calculate_sum(N):
     else:
         return N + calculate_sum(N - 1)
 ```
+
+## Type of recursion
+1. Head Recursion
+```python
+def tail(n):
+    if n == 0:
+        return 
+    print(n)
+    tail(n-1)
+```
+2. Tail Recursion

@@ -84,8 +84,13 @@ def head(n):
 head(5)
 ```
 
+</details>
+
 ### Features
 
 - Feature 1
 - Feature 2
 - Feature 3
+
+<details>
+<summary>Click to see the rectangle box</summary>

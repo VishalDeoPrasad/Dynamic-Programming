@@ -46,7 +46,7 @@ Problem:
 Calculate the sum of the first N integers.
 
 Solution (Python):
-```
+```python
 def calculate_sum(N):
     if N == 1:
         return 1

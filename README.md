@@ -53,12 +53,13 @@ def calculate_sum(N):
     else:
         return N + calculate_sum(N - 1)
 ```
+<summary> How stack is filled with function call</summary>
+
 <pre>
   ┌─────────────────┐
+  ├     1+sum(0)    ┤
   ├─────────────────┤
-  ├    1+sum(0)     ┤
-  ├─────────────────┤
-  ├    2+sum(1)     ┤
+  ├     2+sum(1)    ┤
   ├─────────────────┤
   │     3+sum(2)    │
   ├─────────────────┤

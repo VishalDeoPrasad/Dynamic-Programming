@@ -31,6 +31,8 @@ class House:
     doors = 10
 
 house_ref = House()
+
+```
 # `house_ref` is the object stored in the stack memory,
 # and references to windows and doors are stored in the heap memory.
 When the house_ref reference variable is no longer pointing to the object, it becomes eligible for garbage collection, and the garbage collector will remove it from the heap.

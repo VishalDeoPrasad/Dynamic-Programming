@@ -58,9 +58,28 @@ def calculate_sum(N):
 1. Head Recursion
 ```python
 def tail(n):
+    #base case
     if n == 0:
         return 
+
+    #operation
     print(n)
+
+    #make the recursive function call
     tail(n-1)
+tail(5)
 ```
 2. Tail Recursion
+```python
+def head(n):
+    #base case
+    if n == 0:
+        return 
+
+    #make the recursive function call
+    head(n-1)
+
+    #operation
+    print(n)
+head(5)
+```

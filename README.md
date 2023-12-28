@@ -94,6 +94,14 @@ head(5)
 - Recursion is twice slower then iteration becasue of fold and unfold of function
 
 Problem 2: Calculate the multiplication of the first N integers.
+Solution (Python):
+```python
+def calculate_sum(N):
+    if N == 1:
+        return 1
+    else:
+        return N + calculate_sum(N - 1)
+```
 Problem 3: Calculate the Factorial of the first N integers.
 ```python
 def factorial(n, acc):

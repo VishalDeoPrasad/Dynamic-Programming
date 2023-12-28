@@ -53,6 +53,18 @@ def calculate_sum(N):
     else:
         return N + calculate_sum(N - 1)
 ```
+<pre>
+  ┌─────────────────┐
+  ├─────────────────┤
+  ├    1+sum(0)     ┤
+  ├─────────────────┤
+  ├    2+sum(1)     ┤
+  ├─────────────────┤
+  │     3+sum(2)    │
+  ├─────────────────┤
+  │     4+sum(3)    │
+  └─────────────────┘
+  </pre>
 
 ## Type of recursion
 1. Head Recursion
@@ -83,25 +95,4 @@ def head(n):
     print(n)
 head(5)
 ```
-
-### Features
-
-- Feature 1
-- Feature 2
-- Feature 3
-
-  <summary>Click to see the rectangle box</summary>
-
-  <pre>
-  ┌─────────────────┐
-  │                 │
-  │   Features      │
-  │                 │
-  ├─────────────────┤
-  │ - Feature 1     │
-  │ - Feature 2     │
-  │ - Feature 3     │
-  │                 │
-  └─────────────────┘
-  </pre>
 

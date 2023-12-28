@@ -84,7 +84,7 @@ def head(n):
 head(5)
 ```
 
-| |
+|
 | Features |
 | |
 | - Feature 1 |

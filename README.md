@@ -83,3 +83,11 @@ def head(n):
     print(n)
 head(5)
 ```
+
+| |
+| Features |
+| |
+| - Feature 1 |
+| - Feature 2 |
+| - Feature 3 |
+| |

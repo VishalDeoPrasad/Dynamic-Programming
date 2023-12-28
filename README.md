@@ -91,7 +91,6 @@ head(5)
 - Feature 3
 
 <details>
-  <summary>Click to see the rectangle box</summary>
 
   <pre>
   ┌─────────────────┐

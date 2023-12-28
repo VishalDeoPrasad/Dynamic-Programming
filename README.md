@@ -84,8 +84,6 @@ def head(n):
 head(5)
 ```
 
-</details>
-
 ### Features
 
 - Feature 1
@@ -93,4 +91,19 @@ head(5)
 - Feature 3
 
 <details>
-<summary>Click to see the rectangle box</summary>
+  <summary>Click to see the rectangle box</summary>
+
+  <pre>
+  ┌─────────────────┐
+  │                 │
+  │   Features      │
+  │                 │
+  ├─────────────────┤
+  │ - Feature 1     │
+  │ - Feature 2     │
+  │ - Feature 3     │
+  │                 │
+  └─────────────────┘
+  </pre>
+
+</details>

@@ -73,10 +73,8 @@ def tail(n):
     #base case
     if n == 0:
         return 
-
     #operation
     print(n)
-
     #make the recursive function call
     tail(n-1)
 tail(5)
@@ -87,12 +85,22 @@ def head(n):
     #base case
     if n == 0:
         return 
-
     #make the recursive function call
     head(n-1)
-
     #operation
     print(n)
 head(5)
+```
+- Recursion is twice slower then iteration becasue of fold and unfold of function
+
+Problem 2: Calculate the multiplication of the first N integers.
+Problem 3: Calculate the Factorial of the first N integers.
+```python
+def factorial(n, acc):
+    #base case
+    if n == 0:
+        return acc
+    return factorial(n-1, n*acc)
+factorial(n, acc)
 ```
 

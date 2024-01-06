@@ -113,7 +113,7 @@ factorial(n, acc)
 
 ```python
 #head Recursion
-def factorial(n:
+def factorial(n):
     #base case
     if n == 1:
         return 1

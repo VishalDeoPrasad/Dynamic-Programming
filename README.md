@@ -121,3 +121,47 @@ def factorial(n):
 factorial(5)
 ```
 
+## Fibonacci Number problem with head recursion
+- some value are calculate twice
+- will use dynamic programming to make it efficient
+```python
+def febo(n):
+    if n == 0:
+        return 0
+    if n == 1:
+        return 1
+    return febo(n-1)+febo(n-2)
+
+print(febo(7))
+```
+
+## Fibonacci Number stack Memory Visualization
+### Head Recursion
+```python
+def fiboncci(n):
+    if n == 0:
+        return 0
+    if n == 1:
+        return 1
+    
+    fibo1 = fibonacci(n-1)
+    fibo2 = fibonacci(n-2)
+    result = fibo1+fibo2
+    return result
+```
+### Tail Recursion 
+```python
+def fibonacci_tail(n, a=0, b=1):
+    if n==0: return a
+    if n==1: return b
+    return fibonacci_tail(n-1, b, a+b)
+
+print(fibonacci_tail(6))
+```
+
+## Towers of Hanoi
+- still in progress
+
+
+
+

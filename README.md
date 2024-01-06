@@ -182,6 +182,30 @@ for two given number a and b such that a>=b
 -> if b/a then GCD(a,b) = b
 -> otherwise GCD(a,b) = GCD(b, a mod b)
 ```
+- 3 is Greatest Common Divisor for (24,9)
+```
+GCD(24,9) --> GCD(9, 6) --> GCD(6, 3) --> return 3
+```
+
+```python
+def GCD(a,b):
+    #base case: if b/a(without a remainder) then b is gcd
+    if a%b==0:
+        return b
+    
+    return GCD(b, a%b)
+
+print(GCD(24,9))
+```
+
+- Find the Greatest Common Division using Iterative method
+```python
+def gcd_iter(a,b):
+    while a%b != 0:
+        a,b = b, a%b
+    return b
+print(gcd_iter(24,9))
+```
 
 
 

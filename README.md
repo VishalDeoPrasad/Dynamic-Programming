@@ -120,7 +120,17 @@ def factorial(n):
     return n+factorial(n-1)
 factorial(5)
 ```
+## Fibonacci number using iterative method
+```python
+def fibonacci_iterative(n):
+    a, b = 0,1
+    while n > 0:
+        n = n-1
+        a, b = b, a+b
+    return a
 
+print(fibonacci_iterative(7))
+```
 ## Fibonacci Number problem with head recursion
 - some value are calculate twice
 - will use dynamic programming to make it efficient
@@ -158,9 +168,21 @@ def fibonacci_tail(n, a=0, b=1):
 
 print(fibonacci_tail(6))
 ```
-
 ## Towers of Hanoi
 - still in progress
+
+## What is the Euclidean Algorithm
+- Euclidean Algorithm is an efficient method for computing the greatest common
+divisor(GCD) of two integers
+- GCD - the largest number that divides them both without a remainder
+
+```
+GCD(a,b)
+for two given number a and b such that a>=b
+-> if b/a then GCD(a,b) = b
+-> otherwise GCD(a,b) = GCD(b, a mod b)
+```
+
 
 
 

@@ -186,7 +186,7 @@ for two given number a and b such that a>=b
 ```
 GCD(24,9) --> GCD(9, 6) --> GCD(6, 3) --> return 3
 ```
-
+- Implement Euclidean Algorithm using Recursion method
 ```python
 def GCD(a,b):
     #base case: if b/a(without a remainder) then b is gcd
@@ -198,13 +198,40 @@ def GCD(a,b):
 print(GCD(24,9))
 ```
 
-- Find the Greatest Common Division using Iterative method
+- Implement Euclidean Algorithm using Iterative method
 ```python
 def gcd_iter(a,b):
     while a%b != 0:
         a,b = b, a%b
     return b
 print(gcd_iter(24,9))
+```
+
+## What is Linear Search
+- linear search(sequential search) is a mothod for finding an item in an unsorted list.
+- the algorithm makes N comparsions in worst-case, hense time complexity is o(N)
+- Not good practice we can use binary search which take O(logN) or hash-function which will take O(1) time complexity.
+
+- Implement Linear search using Iterative method
+```python
+def linear_search(container, item):
+    for i in range(len(container)):
+        if container[i] == item:
+            return i
+    return -1
+print(linear_search([5,7,4,8,9,5,4,8], 5))
+```
+- Implement Linear Search using Recursion
+```python
+def linear_search(container, item, index=0):
+    if index >= len(container): #base case 1:
+        return -1
+    if container[index] == item: #base case 2: When we found item
+        return index
+    
+    return linear_search(container, item, index+1)
+
+print(linear_search([4,5,8,2,1,4,7], 2))
 ```
 
 

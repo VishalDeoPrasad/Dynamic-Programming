@@ -290,11 +290,11 @@ print(ans)
 - it has O(N) linear running time in best-case, and o(N*N) in worst-case(quadratic time)
 - Hoare algorithm is an in-place approch-does not need additonal memory(huge advantage)
 - concept is very similier to that of quicksort; both are design by Tony only
-- 1. partition phase: left subarray and right subarray
-- 2. selection phase: 
-    - - k == pivot
-    - - k > pivot; left side of the pivot
-    - - k > pivot; right side of the pivot
+    1. partition phase: left subarray and right subarray
+    2. selection phase: 
+        - k == pivot
+        - k > pivot; left side of the pivot
+        - k > pivot; right side of the pivot
 - best case o(N) linear time, worst case o(N*N) quardratic time
 
 

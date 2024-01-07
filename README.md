@@ -279,6 +279,24 @@ ans = binary_search(lst, key, 0, len(lst)-1)
 print(ans)
     
 ```
+## Selection Algorithm
+- selection algorithm are algorithm to find the k-th smallest(or largest) item in a data strucute, such a number is called k-th order statistic
+- we can also find the maximum item, the minimum item or the median.
+- the aim is to achieve o(N) linear running time complexity.
+
+### Quickselect Algorithm
+- it is a seleciton algorithm designed by Tony Hoare.
+- it is able to find the kth-smallest item in an unordered array.
+- it has O(N) linear running time in best-case, and o(N*N) in worst-case(quadratic time)
+- Hoare algorithm is an in-place approch-does not need additonal memory(huge advantage)
+- concept is very similier to that of quicksort; both are design by Tony only
+- 1. partition phase: left subarray and right subarray
+- 2. selection phase: 
+    - - k == pivot
+    - - k > pivot; left side of the pivot
+    - - k > pivot; right side of the pivot
+- best case o(N) linear time, worst case o(N*N) quardratic time
+
 
 
 

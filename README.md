@@ -233,6 +233,10 @@ def linear_search(container, item, index=0):
 
 print(linear_search([4,5,8,2,1,4,7], 2))
 ```
+## What is binary Search?
+- method fo finding an item in an sorted list
+- the algorithm make logN comparision in worst-case, hence the running time complexity is o(logN).
+
 
 
 

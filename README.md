@@ -297,6 +297,72 @@ print(ans)
         - k > pivot; right side of the pivot
 - best case o(N) linear time, worst case o(N*N) quardratic time
 
+>> More is there... Continue at end
+
+## Bit Manipulation Problems
+
+### Binary Operations
+1. AND --> True if both the value is True
+> print(27 & 15) output=11
+1. OR  --> True if any Value is True
+> print(27 | 15) output=31
+1. XOR --> True If one diffent from another
+> print(27 ^ 15) output=20
+1. NOR --> Flip the bit 
+>for example ~1 = 0
+
+### Binary Shift Operators
+1. Left shift operator: (<<) shift every single bit to the left(0 is added to the end)
+- here we are applying left shift operator 1, 2, 3, 4, 5 times
+- left shift operation increments the value.
+```python
+print(27 << 1) output=54
+print(27 << 2)
+print(27 << 3)
+print(27 << 4)
+print(27 << 5)
+```
+
+### Right Shift Operators
+2. Rifht shift operator: (>>) shift every single bit to the right(0 is added to the begining)
+- here we are applying left shift operator 1, 2, 3, 4, 5 times
+- right shift operation decrements the value.
+- divie the value by 2
+```python
+print(27 >> 1) output=13
+print(27 >> 2)
+print(27 >> 3)
+print(27 >> 4)
+print(27 >> 5)
+```
+
+### find the bit lenght of the integer
+```python
+def count_bit(n):
+    cnt = 0
+    while n > 0:
+        cnt += 1
+        n = n >> 1
+    return cnt
+
+print("Total bit required to repersent: ", count_bit(bin(412)))
+```
+
+### Checking Even and Odd Numbers
+```python
+def is_even(n):
+    #xor increment the value by 1
+    if n^1 == n+1:
+        return True
+    return False
+
+print(is_even(10))
+
+```
+
+## What is Backtracking?
+
+
 
 
 

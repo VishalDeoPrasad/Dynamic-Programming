@@ -377,6 +377,8 @@ print(is_even(10))
 - Placing Queens in such a way that it makes more damage in 8x8 board.
 ![Alt text](https://media.geeksforgeeks.org/wp-content/uploads/20230814111654/Solution-Of-4-Queen-Problem.png)
 
+![chess](https://media.geeksforgeeks.org/wp-content/uploads/20230814111826/Backtracking.png)
+
 
 
 

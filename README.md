@@ -361,6 +361,21 @@ print(is_even(10))
 ```
 
 ## What is Backtracking?
+- Backtracking is form of recusion
+- General Algorithm for finding all soluctions to some computatinal problems
+- backtracking is also important when solving combinational optimization problem(travelling salesman problem etc)
+- it is often much faster than brute force solution.
+- N-queens problem or sudoku
+- best example, tik-tac-toe game
+
+### Brute-force search vs Backtracking
+- In Brute-force, We consider and evalute all the possible solutions(or states) one by one until we find the soluction
+- whereas in Backtracking, we can discard several bad states with just a single iteration.
+- for example, Graph Search
+
+### N-Queens Problem
+- Placing Queens in such a way that it makes more damage in 8x8 board.
+![Alt text](https://media.geeksforgeeks.org/wp-content/uploads/20230814111654/Solution-Of-4-Queen-Problem.png)
 
 
 

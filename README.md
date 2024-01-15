@@ -379,6 +379,7 @@ print(is_even(10))
 
 ![chess](https://media.geeksforgeeks.org/wp-content/uploads/20230814111826/Backtracking.png)
 
+### Implementation of N-Queens Problem:
 
 
 
